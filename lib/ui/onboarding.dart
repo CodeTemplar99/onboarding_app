@@ -29,9 +29,6 @@ class Onboarding extends StatelessWidget {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
-                              // if (kDebugMode) {
-                              //   print('skip text clicked');
-                              // }
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -75,7 +72,13 @@ class Onboarding extends StatelessWidget {
                           RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8.0),
                       ))),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const GetStarted()),
+                    );
+                  },
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         vertical: 15.0, horizontal: 10),

@@ -44,3 +44,24 @@ class SecondRoute extends StatelessWidget {
     );
   }
 }
+
+class GetStarted extends StatelessWidget {
+  const GetStarted({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Sign Up"),
+      ),
+      body: const Center(
+        child: Text(
+          'Nothing here for now',
+          style: TextStyle(
+            fontSize: 20.00,
+          ),
+        ),
+      ),
+    );
+  }
+}
