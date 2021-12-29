@@ -23,3 +23,24 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class SecondRoute extends StatelessWidget {
+  const SecondRoute({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Blank"),
+      ),
+      body: const Center(
+        child: Text(
+          'Nothing here for now',
+          style: TextStyle(
+            fontSize: 20.00,
+          ),
+        ),
+      ),
+    );
+  }
+}
