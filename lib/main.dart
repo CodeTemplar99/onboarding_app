@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:onboarding/ui/onboarding.dart';
 
+import 'ui/getStartedForm.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -54,14 +56,7 @@ class GetStarted extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Sign Up"),
       ),
-      body: const Center(
-        child: Text(
-          'Nothing here for now',
-          style: TextStyle(
-            fontSize: 20.00,
-          ),
-        ),
-      ),
+      body: const GetStartedForm(),
     );
   }
 }
