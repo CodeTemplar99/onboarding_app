@@ -1,6 +1,7 @@
 # onboarding
 
 A new Flutter project.
+<img width="404" alt="Screenshot 2022-01-27 at 14 07 20" src="https://user-images.githubusercontent.com/36797498/151365585-bbc7b3f0-d6c9-40bc-b05a-c946ca412aca.png">
 
 ## Getting Started
 
